@@ -1,7 +1,7 @@
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -142px;
+  margin-bottom: -180px;
 }
 .page-wrap:after {
   content: "";
@@ -9,11 +9,34 @@
 }
 
 .site-footer, .page-wrap:after {
-    height: 142px;
+    height: 180px;
 }
 
 .site-footer {
-    background-color: #0A750A;
+    background-color: #35A547;
     width: 100%;
     padding-top: 15px;
+
+    .social {
+        height: 100px;
+        width: 100%;
+        text-align: center;
+
+        i {
+            transition: ease all 0.7s;
+            cursor: pointer;
+
+            &:hover {
+                -webkit-filter: invert(1);
+                filter: invert(1);
+            }
+        }
+    }
+
+    .attributes {
+        font-size: 11px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
 }

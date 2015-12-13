@@ -1,5 +1,5 @@
 .about {
-    height: 300px;
+    min-height: 100px;
     width: 100%;
     background: url('/images/code.jpg');
     position: relative;
@@ -12,7 +12,7 @@
     .divider {
         width: inherit;
         height: 7px;
-        background: #0A750A;
+        background: #35A547;
     }
 
     .about-text {
@@ -21,6 +21,11 @@
         overflow: hidden;
         padding: 15px;
         height: 100%;
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(0, 0, 0, 0.6);
+    }
+    @media (max-width: 800px) {
+        .about-text {
+            width: 100%;
+        }
     }
 }
