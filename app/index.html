@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>XOR</title>
+
+    <!-- <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8"> -->
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/bower_components/hover.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="styles/master.css" media="screen" title="no title" charset="utf-8">
+
+</head>
+<body ng-app="app">
+
+    <div class="page-wrap">
+
+        <div ng-include="'views/partials/header.html'"></div>
+
+        <div id="container-shader" class="container-shader">
+           <div id="output" class="container-shader"></div>
+        </div>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="box">
+                        something
+                    </div>
+                    <div class="box">
+                        something
+                    </div>
+                    <div class="box">
+                        something
+                    </div>
+                    <div class="box">
+                        something
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="about">
+                        <div class="divider"></div>
+                        <div class="about-text">
+                            <h1>ABOUT US</h1>
+
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="team">
+                        <div class="col-lg-3 member">
+                            <img src="/images/me.jpg" alt="" />
+                            <h4>ERMIN PODRUG</h4>
+                        </div>
+                        <div class="col-lg-3 member">
+                            <img src="/images/me.jpg" alt="" />
+                            <h4>ALMIN HASANDIC</h4>
+                        </div>
+                        <div class="col-lg-3 member">
+                            <img src="/images/me.jpg" alt="" />
+                            <h4>ALDIN SESIC</h4>
+                        </div>
+                        <div class="col-lg-3 member">
+                            <img src="/images/me.jpg" alt="" />
+                            <h4>VILDAN TURSIC</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div ng-include="'views/partials/footer.html'"></div>
+
+    <script src="bower_components/jquery.js" charset="utf-8"></script>
+    <!-- <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script> -->
+    <script src="scripts/bootstrap/bootstrap.min.js" charset="utf-8"></script>
+    <script src="https://cdn.socket.io/socket.io-1.3.7.js"></script>
+    <script src="scripts/shader/shader.js" charset="utf-8"></script>
+    <script src="bower_components/angular.js" charset="utf-8"></script>
+    <script src="scripts/app/app.js" charset="utf-8"></script>
+
+
+</body>
+</html>

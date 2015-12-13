@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  // background-color: #222222;
+  color: white;
+  font-size: 20px;
+}
+
+.container-shader {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+@import 'partials/_header';
+@import 'partials/_footer';
+@import 'partials/_box';
+@import 'partials/_content';
+@import 'partials/_about';
+@import 'partials/_team';

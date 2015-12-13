@@ -1,0 +1,12 @@
+.box {
+    width: 50%;
+    height: 50vh;
+    // background: #222222;
+    float: left;
+    transition: ease all 0.6s;
+    cursor: pointer;
+
+    &:hover {
+        background: #2AA92A;
+    }
+}

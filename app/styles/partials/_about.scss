@@ -1,0 +1,26 @@
+.about {
+    height: 300px;
+    width: 100%;
+    background: url('/images/code.jpg');
+    position: relative;
+    overflow: hidden;
+
+    background-attachment : fixed;
+    background-position   : top center;
+    background-size       : cover;
+
+    .divider {
+        width: inherit;
+        height: 7px;
+        background: #0A750A;
+    }
+
+    .about-text {
+        width: 50%;
+        font-size: 17px;
+        overflow: hidden;
+        padding: 15px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
