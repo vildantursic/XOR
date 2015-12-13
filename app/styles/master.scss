@@ -4,7 +4,6 @@
 
 html, body {
   height: 100%;
-  // background-color: #222222;
   color: white;
   font-size: 20px;
 }
@@ -15,9 +14,16 @@ html, body {
   height: 100vh;
 }
 
+.divider {
+    width: inherit;
+    height: 7px;
+    background: #35A547;
+}
+
 @import 'partials/_header';
 @import 'partials/_footer';
 @import 'partials/_box';
 @import 'partials/_content';
 @import 'partials/_about';
 @import 'partials/_team';
+@import 'partials/_skills';

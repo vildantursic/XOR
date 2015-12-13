@@ -18,7 +18,19 @@
 
     <div class="page-wrap">
 
-        <div ng-include="'views/partials/header.html'"></div>
+        <!-- <div ng-include="'views/partials/header.html'"></div> -->
+
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <nav class="navigation">
+                        <img src="images/XOR-2.png" alt="" />
+                    </nav>
+                    <a href="#" id="box"><button type="button" class="btn" name="button">WE BUILD FOR YOU</button></a>
+                    <!-- <div class="devider"></div> -->
+                </div>
+            </div>
+        </header>
 
         <div id="container-shader" class="container-shader">
            <div id="output" class="container-shader"></div>
@@ -26,16 +38,61 @@
 
 
         <div class="content">
-            <div class="container-fluid">
+
+            <div class="container-fluid" id="box-part">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 box">
                         <img src="/images/man.jpg" alt="" />
                         <div class="box-context">
-                            <h1>PROGRAMMING</h1>
+                            <h1>SOFTWARE ENGINEERING</h1>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 box">
-                        something
+                        <img src="/images/electronic.jpg" alt="" />
+                        <div class="box-context">
+                            <h1>ELECTRO ENINEERING</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="divider"></div>
+                    <div class="skills">
+                        <h1>TEHNOLOGIJE</h1>
+                        <div class="col-lg-2 skill">
+                            <img src="https://maxcdn.icons8.com/Color/PNG/96/Printing/3D_printer-96.png" title="3D Printer" width="96">
+                            <p>3D Printing</p>
+                        </div>
+                        <div class="col-lg-2 skill">
+                            <img src="https://maxcdn.icons8.com/Color/PNG/96/Industry/electronics-96.png" title="Electronics" width="96">
+                            <p>Electronics</p>
+                        </div>
+                        <div class="col-lg-2 skill">
+                            <img src="https://maxcdn.icons8.com/Color/PNG/96/Industry/integrated_circuit-96.png" title="Integrated Circuit" width="96">
+                            <p>Embeded systems</p>
+                        </div>
+                        <!-- <div class="col-lg-2 skill">
+                            <img src="https://maxcdn.icons8.com/Color/PNG/96/Industry/circuit-96.png" title="Circuit" width="96">
+                            <p>3D Printing</p>
+                        </div> -->
+                        <div class="col-lg-2 skill">
+                            <img src="https://maxcdn.icons8.com/Color/PNG/96/Operating_Systems/android_os_copyrighted-96.png" title="Android OS" width="96">
+                            <p>Android</p>
+                        </div>
+                        <div class="col-lg-2 skill">
+                            <img src="https://maxcdn.icons8.com/Color/PNG/96/Network/windows_client-96.png" title="Windows Client" width="96">
+                            <p>Windows</p>
+                        </div>
+                        <div class="col-lg-2 skill">
+                            <img src="https://maxcdn.icons8.com/Color/PNG/96/Weather/clouds-96.png" title="Clouds" width="96">
+                            <p>Cloud</p>
+                        </div>
+                        <!-- <div class="col-lg-2 skill">
+                            <img src="https://maxcdn.icons8.com/Color/PNG/96/Printing/3D_printer-96.png" title="3D Printer" width="96">
+                            <p>3D Printing</p>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -45,10 +102,26 @@
                     <div class="about">
                         <div class="divider"></div>
                         <div class="about-text">
-                            <h1>ABOUT US</h1>
-
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            <h2>O NAMA</h2>
+                            Kompanija XOR je realativno nova na tržištu elektronike i softverskih rješenja za svakodnevnu primjenu.
+                            XOR je osnovan od strane četiri istinska zaljubljenika u elektro i IT sisteme. Naime dvojica osnivača su
+                            inžinjeri elektrotehnike koji posjeduju iskustvo u izgradnji elektro sistema kako za široku primjenu
+                            tako i za primjenu u specijalnim djelatnostima. S druge strane dvojica IT stručnjaka posjeduju iskustvo
+                            u izgradnji softverskih aplikacija.
+                            <br>
+                            <br>
+                            XOR se bavi razvijanjem elektro sistema na cloud platformama koje će omogućavati krajnjem korisniku
+                            upravljanje i procesuiranje podataka na internetu.
+                            <br>
+                            <br>
+                            Ono što nas čini posebnim je činjenica što smo prva kompanija koja ispunjava maštu svojih klijenata.
+                            Naime sve ono što klijent zamisli iz oblasti IT i Elektro inžinjerstva dvadeset i prvog stoljeća, uz naše stručno
+                            osoblje pretvaramo u stvarnost i proizvod spreman za upotrebu.
+                            <br>
+                            <br>
+                            Postanite i vi naš zadovoljan klijent!
                         </div>
+                        <div class="divider"></div>
                     </div>
                 </div>
             </div>
@@ -58,19 +131,23 @@
                     <div class="team">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 member">
                             <img src="/images/Ermin.jpg" alt="" />
-                            <h4>ERMIN PODRUG</h4>
+                            <p>Ermin Podrug</p>
+                            <p>Inženjer Elektrotehnike</p>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 member">
                             <img src="/images/Almin.jpg" alt="" />
-                            <h4>ALMIN HASANDIC</h4>
+                            <p>Almin Hasandić</p>
+                            <p>Inženjer Elektrotehnike</p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 member">
+                            <img src="/images/user.png" alt="" />
+                            <p>Aldin Šešić</p>
+                            <p>Inženjer Informatike i Računarstva</p>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 member">
                             <img src="/images/Vildan.jpg" alt="" />
-                            <h4>ALDIN SESIC</h4>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 member">
-                            <img src="/images/Vildan.jpg" alt="" />
-                            <h4>VILDAN TURSIC</h4>
+                            <p>Vildan Tursić</p>
+                            <p>Inženjer Informatike i Računarstva</p>
                         </div>
                     </div>
                 </div>
@@ -89,6 +166,14 @@
     <script src="scripts/shader/shader.js" charset="utf-8"></script>
     <script src="bower_components/angular.js" charset="utf-8"></script>
     <script src="scripts/app/app.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+        $("#box").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#box-part").offset().top
+            }, 1000);
+        });
+    </script>
 
 
 </body>

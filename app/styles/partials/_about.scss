@@ -1,19 +1,13 @@
 .about {
     min-height: 100px;
     width: 100%;
-    background: url('/images/code.jpg');
+    background: url('/images/team.jpg');
     position: relative;
     overflow: hidden;
 
     background-attachment : fixed;
     background-position   : top center;
     background-size       : cover;
-
-    .divider {
-        width: inherit;
-        height: 7px;
-        background: #35A547;
-    }
 
     .about-text {
         width: 50%;
